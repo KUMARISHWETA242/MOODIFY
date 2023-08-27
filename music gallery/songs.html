@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Songs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css\style.css">
+    
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+    
+</head>
+<body>
+    
+<!-- navbar code begins-->
+<!--     
+   <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light shadow fixed-top shift animate__animated animate__slideInDown animate__slower">
+    <div class="container-fluid">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="home.html" class="navbar-brand"> 
+        <img src="images/logo.JPG" width="80" height="60" alt="" class="d-inline-block align-middle mr-2">
+      </a>
+  
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto navbar-nav mx-auto">
+          <li class="nav-item active navbar-center">
+            <a class="nav-link" aria-current="page" href="home.php">HOME</a>
+          </li>
+          <li class="nav-item navbar-center">
+            <a class="nav-link" aria-current="page" href="#aboutus">ABOUT</a>
+          </li>
+            <li class="nav-item dropdown navbar-center">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              INTEREST
+            </a> 
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdow n">
+              <li><a class="dropdown-item" href="books.html">BOOKS</a></li>
+              <li><a class="dropdown-item" href="music gallery\songs.html">SONGS</a></li>
+              <li><a class="dropdown-item" href="podcast\podcast.html">PODCAST</a></li>
+              <li><a class="dropdown-item" href="#">MOVIES</a></li>
+            </ul>
+          </li>
+          <li class="nav-item navbar-center">
+            <a class="nav-link" href="#read">REVIEWS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+  <nav>
+    <!--logo--------------->
+    <a href="#" class="logo">
+        <img src="images/logo.png"/>
+    </a>
+   
+    
+    <!--menu-------------->
+    <ul class="menu">
+        <li><a href="../home.php">Home</a></li>
+        <li><a href="#main">Trending</a></li>
+    </ul>
+    <!--search------------->
+    <div class="search">
+        <input type="text" placeholder="Find Your Favourtie Songs here &nbsp;&nbsp;"/>
+        <!--search-icon----------->
+        <i class="fas fa-search"></i>
+    </div>
+</nav>
+
+<!-- navbar code ends -->
+<br><br>
+<div class="container">
+    <div class="box-container">
+
+        <div class="box" data-src="images/1.mp3">
+            <div class="image">
+                <div class="play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>On My Way</h3>
+            </div>
+        </div>
+
+        <div class="box" data-src="images/2.mp3">
+            <div class="image">
+                <div class="play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <img src="images/2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Faded</h3>
+            </div>
+        </div>
+
+        <div class="box" data-src="images/3.mp3">
+            <div class="image">
+                <div class="play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>On & On</h3>
+            </div>
+        </div>
+
+        <div class="box" data-src="images/4.mp3">
+            <div class="image">
+                <div class="play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Warriyo Mortals</h3>
+            </div>
+        </div>
+
+        <div class="box" data-src="images/11.mp3">
+            <div class="image">
+                <div class="play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <img src="images/11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Lagdi Lahore Di</h3>
+            </div>
+        </div>
+
+        <div class="box" data-src="images/7.mp3">
+            <div class="image">
+                <div class="play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <img src="images/7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Tamasha</h3>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="music-player">
+    <div id="close-player" class="fas fa-angle-up"></div>
+    <h3 class="music-title">(play your song)</h3>
+    <audio src="" controls></audio>
+</div>
+ <!-- main-footer -->
+ <footer class="main-footer">
+    <div class="container">
+        <div class="widget-section">
+            <div class="row">
+                <div class="col-lg-4 footer-column">
+                    <div class="logo-widget footer-widget">
+                        <div class="widget-content">
+                            <h4 class="widget-title">Stay Connected On Social</h4>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 footer-column">
+                    <div class="contact-widget footer-widget">
+                        <h4 class="widget-title">Contact us</h4>
+                        <div class="widget-content">
+                            <ul class="list">
+                                <li>
+                                    <span>Address :</span>
+                                    &bull; Delhi &nbsp; &bull; Noida &nbsp; &bull; Gurugaon
+                                </li>
+                                <li>
+                                    <span>Call Us :</span>
+                                    <a href="tel:8523461256">8523461256</a>
+                                </li>
+                                <li>
+                                    <span>Email :</span>
+                                    <a href="mailto:moods@moodify.in">moods@moodify.in</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom centred">
+            <div class="copyright">&copy; <a href="#">Moodify</a> 2023. All Rights Reserved. </div>
+        </div>
+    </div>
+  </footer>
+  <!-- main-footer end -->
+</body>
+</html>

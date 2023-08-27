@@ -1,0 +1,131 @@
+#contact{
+    background-color:rgba(68, 68, 68, 0.164) ;
+    
+    padding: 5rem 2rem;
+}
+body{
+    background-color: burlywood;
+}
+.contact-container{
+    display: flex;
+    background: white;
+    
+}
+.contact-image{
+    width: 50%;
+}
+
+.user-image{
+   width: 170px;
+   height:170px ;
+   border-radius:50%;
+   position: fixed;
+   justify-content: center;
+   align-items: center;
+   margin: 10% 15%;
+}
+.contact-image img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+} 
+
+#file{
+    display: none;
+}
+
+#uploadbtn{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px;
+    border-radius:50%;
+    cursor: pointer;
+    color: rgb(94, 87, 87);
+    transform: translateX(-100%);
+    margin-top: 130px;
+    background-color: rgb(173, 172, 172,0.083);
+    box-shadow: 2px 4px 4px rgb(0,0,0,0.644);
+}
+.contact-details{
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+}
+
+.contact-details h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+/* .contact-details input,.contact-details textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px rgba(168, 161, 161, 0.959) solid;
+    color: #444;
+    padding: 1rem;
+    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+} */
+
+.personal-info {
+    float: left;
+    margin-top: 30px;
+    width: 310px;
+    min-height: 230px;
+    /* margin-left: 10px; */
+    padding: 20px 0 0 20px; 
+    color: rgba(0,0,0,0.75);
+  }
+  .personal-info li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    overflow: hidden
+  }
+  .personal-info li label {
+    float: left;
+    padding: 4px 7px;
+    font-weight: 600
+  }
+  .personal-info li span {
+    float: right;
+    width: 200px;
+    padding-top: 4px;
+    font-weight: 400
+  }
+
+@media (max-width:500px)
+{
+    
+      html{
+        font-size: 50%;
+    }  
+
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-details{
+        width: 90%;
+    }
+    .contact-image{
+        width: 100%;
+
+    }
+
+    .contact-details h2{
+        font-size: 2rem;
+
+    
+    }
+    
+
+}

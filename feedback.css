@@ -1,0 +1,78 @@
+.myfeedback
+{
+  color:#C58940;
+  border:1px solid #F1DBBF;
+  background-color:#F1DBBF;
+  padding: 100px;
+  margin-top:10%;
+  margin-left:20%;
+  margin-right: 20%;
+
+}
+.review textarea{
+  
+  color:#C58940;
+}
+.review input{
+  height: 60px;
+  width: 100%;
+  min-width: 100%; 
+  border: 1px solid #C58940;
+  color:black;
+  font-size: 18px;
+}
+.review ::placeholder
+{
+  color:black;
+  border:#C58940;
+}
+.submit-button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}  
+
+#submit-btn{
+    color: #FFF9F9;
+    font-weight: bolder;
+    background-color:#C58940;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+    opacity:60%;
+    text-align: center;
+    margin-left:33%;
+  }
+  @import "compass/css3";
+
+h1 {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.review .star-widget input{
+  display: none;
+}
+input{
+  padding-left:12px;
+}
+textarea{
+  color:black;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color:white;
+}
+input:checked ~ label{
+  color:white;
+}
+input#rate-5:checked ~ label{
+  color:white;
+  text-shadow: 0 0 20px black;
+}

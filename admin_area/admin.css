@@ -1,0 +1,16 @@
+.admin_image{
+    width:100px;
+    object-fit:contain;
+}
+button{
+        
+    border-radius:5px;
+    background-color: #C58940;
+    margin-left:150px;
+}
+.admin_image{
+    background-color: burlywood;
+}
+a{
+    color: white;
+}
